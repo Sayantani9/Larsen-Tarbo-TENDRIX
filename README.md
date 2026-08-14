@@ -52,7 +52,92 @@ TENDRIX is a **bio-inspired cable-tendon robotic arm** designed for **safe adapt
 
 Unlike conventional robotic manipulators that may abruptly stop or drop payloads during electrical failures, TENDRIX introduces a **supercapacitor-backed emergency landing control architecture** capable of executing a safe descent, controlled object release, and autonomous homing sequence.
 
-The project focuses on **industrial safety, adaptive manipulation, modular robotics, and intelligent automation**.
+The project focuses on **industrial safety, adaptive manipulation, modular robotics, and intelligent automation
+
+TENDRIX-Bio-Tentacle-Gripper-Robotic-Arm/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── CHANGELOG.md
+│
+├── assets/
+│   ├── banner.png
+│   ├── sayantani-profile.jpg
+│   ├── cad-render.png
+│   ├── system-architecture.png
+│   ├── emergency-homing-diagram.png
+│   ├── gripper-mechanism.gif
+│   ├── demo-thumbnail.png
+│   └── logos/
+│       ├── lt-techgium.png
+│       └── finalist-badge.png
+│
+├── docs/
+│   ├── problem-statement.md
+│   ├── design-philosophy.md
+│   ├── system-architecture.md
+│   ├── cable-tendon-mechanism.md
+│   ├── bio-inspired-gripper.md
+│   ├── emergency-landing-control.md
+│   ├── power-backup-system.md
+│   ├── machine-learning-pipeline.md
+│   ├── control-algorithms.md
+│   ├── safety-features.md
+│   ├── testing-results.md
+│   ├── bill-of-materials.md
+│   ├── manufacturing-guide.md
+│   └── future-roadmap.md
+│
+├── hardware/
+│   ├── CAD/
+│   │   ├── base-assembly.step
+│   │   ├── arm-link.step
+│   │   ├── tentacle-gripper.step
+│   │   └── full-assembly.step
+│   ├── drawings/
+│   ├── electronics/
+│   └── wiring/
+│
+├── firmware/
+│   ├── esp32/
+│   ├── motor-control/
+│   ├── tendon-control/
+│   ├── emergency-homing/
+│   └── sensor-interface/
+│
+├── software/
+│   ├── vision/
+│   ├── ml/
+│   ├── object-classification/
+│   ├── trajectory-planning/
+│   ├── safety-controller/
+│   └── simulation/
+│
+├── simulations/
+│   ├── gazebo/
+│   ├── pybullet/
+│   └── solidworks-motion/
+│
+├── experiments/
+│   ├── grasp-tests/
+│   ├── power-failure-tests/
+│   ├── accuracy-analysis/
+│   └── adaptive-grasping/
+│
+├── results/
+│   ├── videos/
+│   ├── graphs/
+│   ├── photos/
+│   └── reports/
+│
+└── presentations/
+    ├── LT-Techgium-Pitch.pdf
+    ├── Technical-Poster.pdf
+    └── Abstract.pdf**.
 
 ---
 
