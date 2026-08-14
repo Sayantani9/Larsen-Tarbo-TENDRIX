@@ -1,0 +1,60 @@
+{
+  "name": "tendrix-bio-tentacle-gripper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TENDRIX — Bio-Inspired Tentacle Gripper Robotic Arm with ML-Based Emergency Safe Homing System",
+  "author": "Sayantani Banerjee",
+  "license": "MIT",
+  "keywords": [
+    "robotics",
+    "bio-inspired",
+    "machine-learning",
+    "computer-vision",
+    "industrial-automation",
+    "nextjs",
+    "tailwind",
+    "vercel"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.542.0",
+    "next": "15.5.2",
+    "next-themes": "^0.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-player": "^2.16.0",
+    "react-scroll": "^1.9.3",
+    "react-type-animation": "^3.2.0",
+    "sharp": "^0.34.3",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "15.5.2",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
