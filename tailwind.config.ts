@@ -1,5 +1,3 @@
-@import "tailwindcss";
-/* Your existing custom CSS below this line */
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
